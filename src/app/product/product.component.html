@@ -1,0 +1,30 @@
+<div class="card">
+  <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-10">
+        <h5 class="card-title">{{product.name}}</h5>
+      </div>
+      <div class="col-2">
+        <span class="badge badge-secondary">{{product.category}}</span>
+      </div>
+    </div>
+    <p class="card-text">{{product.description}}</p>
+    <p>{{product.price}} ₽</p>
+    <p>
+      <span *ngIf="product.isAvailable">Товар есть в наличии</span>
+      <span *ngIf="!product.isAvailable">Товара нет в наличии</span>
+    </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      Доступные размеры: <span class="badge badge-light" *ngFor="let size of product.sizes">{{size}}</span>
+    </li>
+    <li class="list-group-item">
+      Доступные цвета: <span *ngFor="let color of product.colors" [class]="'product-' + color" [title]="color"></span>
+    </li>
+  </ul>
+  <div class="card-body">
+    <button class="btn btn-outline-dark" (click)="onBuy()">Добавить в корзину</button>
+  </div>
+</div>

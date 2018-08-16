@@ -1,0 +1,19 @@
+$list: black white blue green pink brown gray orange red;
+$size: 20px;
+
+@each $color in $list {
+  .product-#{$color} {
+    display: inline-block;
+    width: $size;
+    height: $size;
+    margin-right: 5px;
+    background-color: #{$color};
+    border: 1px solid #eee;
+  }
+}
+
+.list-group-item {
+  span {
+    margin-right: 5px;
+  }
+}

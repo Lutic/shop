@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "name": "Рубашка",
+    "description": "мужская, хлопок 100%",
+    "price": 2500,
+    "category": "одежда",
+    "isAvailable": true,
+    "image": "http://placehold.it/32x32",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      "white", "blue", "gray"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Рубашка",
+    "description": "женская, хлопок 100%",
+    "price": 3000,
+    "category": "одежда",
+    "isAvailable": true,
+    "image": "http://placehold.it/32x32",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      "white", "blue", "gray"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Брюки",
+    "description": "мужские, хлопок 97%, эластан 3%",
+    "price": 4500,
+    "category": "одежда",
+    "isAvailable": true,
+    "image": "http://placehold.it/32x32",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      "black", "brown", "gray"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Брюки",
+    "description": "женские, хлопок 97%, эластан 3%",
+    "price": 3000,
+    "category": "одежда",
+    "isAvailable": true,
+    "image": "http://placehold.it/32x32",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      "black", "white", "gray", "brown"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Пиджак",
+    "description": "мужской, хлопок 98%, эластан 2%",
+    "price": 5000,
+    "category": "одежда",
+    "isAvailable": true,
+    "image": "http://placehold.it/32x32",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": [
+      "black", "brown", "gray"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Пиджак",
+    "description": "женский, хлопок 98%, эластан 2%",
+    "price": 5000,
+    "category": "одежда",
+    "isAvailable": true,
+    "image": "http://placehold.it/32x32",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      "black", "white", "gray", "brown"
+    ]
+  }
+]

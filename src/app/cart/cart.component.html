@@ -1,0 +1,25 @@
+<div class="card text-white bg-info">
+  <div class="card-header">
+    Корзина
+  </div>
+  <div class="card-body">
+    <ng-container *ngIf="items.length">
+      <div *ngFor="let item of items">
+        <div class="row">
+          <div class="col-10">
+            {{item.name}} - {{item.numberInCart}} шт.<br />
+            {{item.description}}
+          </div>
+          <div class="col-2">{{item.totalPrice}} ₽</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10">Итого:</div>
+        <div class="col-2">{{totalCost}} ₽</div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="!items.length">
+      Ваша корзина пока пуста.
+    </ng-container>
+  </div>
+</div>
